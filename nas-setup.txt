@@ -3,3 +3,4 @@ sudo touch /etc/auto.NSA310
 echo "NSA310 192.168.0.119:/i-data/3e634b55/nfs/NASmcbrown" | sudo tee -a /etc/auto.NSA310
 sudo touch /etc/auto.master
 echo "/mnt     /etc/auto.NSA310" | sudo tee -a /etc/auto.master
+ln -s /mnt/NSA310/home/mcbrown ~/NASmcbrown
